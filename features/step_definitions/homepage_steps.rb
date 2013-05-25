@@ -3,7 +3,7 @@ Given(/^I go to the homepage$/) do
 end
 
 Given(/^I click the blogs link$/) do
-  pending # express the regexp above with the code you wish you had
+  click_link "Blogs"
 end
 
 Then(/^should go to the blog page$/) do
