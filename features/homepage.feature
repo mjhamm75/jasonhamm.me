@@ -4,6 +4,6 @@ Feature: Homepage
   Should be able to access all the junk on my homepage
 
   Scenario:  Views the nabvar links
-    Given I am on the homepage
+    Given I go to the homepage
     And I click the blogs link
-    I should go to the blog page
+    Then should go to the blog page
